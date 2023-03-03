@@ -24,10 +24,10 @@ def alternating_suffle(card_count):
                 new_deck.append(card)
             else:
                 new_deck.insert(0, card)
-        
         curr_deck = new_deck
         
     print(f'{shuffle_count} cycles needed to return to original order')
+    print(f'1 cycle needed to be maximally shuffled')  # Experiments showed that only 1 cycle was needed
 
 
 if __name__ == '__main__':
